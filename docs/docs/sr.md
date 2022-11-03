@@ -78,7 +78,7 @@ We would like to underline that SR can be derived (and therefore thought of) as 
 The derivation in the case of a variational optimization for the ground state, can be sketched as follows:
 
 Given a a variational wavefunction $ \ket{\psi_W} $, we consider its first order Taylor expansion around $ W $, $ \ket{\psi_{W+\delta W}} = \ket{\psi_W} + \delta W_k \hat{O}_k \ket{\psi_W} $, where $ \bra{\sigma}\hat{O}_k \ket{\eta} = \delta_{\sigma,\eta} \frac{d \log\psi_W(\sigma)}{dW_k}$.
-We wish to determine the updates $ \delta_{\sigma,\eta} $ of the variational parameters that match a step of imaginary-time evolution, given by
+We wish to determine the updates $ \delta W_k$ of the variational parameters that match a step of imaginary-time evolution, given by
 
 \begin{equation}
 \ket{\phi} = U(\epsilon)\ket{\psi_W} = e^{-\epsilon\hat{H}}\ket{\psi_W} \sim (\mathbb{I} - \epsilon \hat{H})\ket{\psi_W}
